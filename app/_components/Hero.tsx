@@ -41,7 +41,7 @@ const Hero = () => {
           <Link
             href="https://github.com/lijo-1"
             target="_blank"
-            className="text-[#9a78fa] text-[30px] transition-all hover:text-black"
+            className="text-[#9a78fa] text-[30px] transition-all hover:text-white"
           >
             <FaGithub />
           </Link>
