@@ -33,7 +33,7 @@ const Hero = () => {
           <Link
             href="https://www.linkedin.com/in/lijo-s-3b9314226/"
             target="_blank"
-            className="text-[#9a78fa] text-[30px] transition-all"
+            className="text-[#9a78fa] text-[30px] transition-all hover:text-[#0A66C2]"
           >
             <FaLinkedin />
           </Link>
@@ -41,7 +41,7 @@ const Hero = () => {
           <Link
             href="https://github.com/lijo-1"
             target="_blank"
-            className="text-[#9a78fa] text-[30px] transition-all"
+            className="text-[#9a78fa] text-[30px] transition-all hover:text-black"
           >
             <FaGithub />
           </Link>
