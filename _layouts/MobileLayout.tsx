@@ -9,7 +9,7 @@ const MobileLayout = () => {
   return (
     <div className="flex flex-col h-screen overflow-y-auto !scroll-smooth">
       <Navbar />
-      <div className="flex flex-col justify-center min-h-[calc(100vh-50px)]">
+      <div className="flex flex-col justify-center min-h-[calc(100vh-40px)]">
         {/* Adjust 60px to match the height of your Navbar */}
         <Hero />
       </div>

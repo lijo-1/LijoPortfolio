@@ -17,7 +17,7 @@ import { SiTypescript, SiMongodb } from "react-icons/si";
 const Skills = () => {
   return (
     <div
-      className="mt-24 res-grid text-white scroll-mt-24 mb-6 tag"
+      className="mt-24 res-grid text-white scroll-mt-24 tag"
       id="skills"
     >
       <h3 className="font-bold text-[20px] text-gray-300 md:text-[20px]">
