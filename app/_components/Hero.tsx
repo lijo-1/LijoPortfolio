@@ -3,7 +3,7 @@ import { FaLinkedin, FaGithub } from "react-icons/fa"; // Import icons
 
 const Hero = () => {
   return (
-    <div className="res-grid mt-2" id="about">
+    <div className="res-grid mt-2 scroll-mt-80" id="about">
       <div className="text-white col-start-1 col-end-5 md:col-end-8 lg:col-end-6">
         <div>
           <h3 className="font-semibold text-[24px] md:text-[24px]">

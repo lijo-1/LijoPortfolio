@@ -35,9 +35,9 @@ const Spotify = () => {
   }, []);
 
   return (
-    <div className="res-grid mt-14 pb-5">
+    <div className="res-grid mt-14 pb-8">
       <div className="col-start-1 col-end-5 flex gap-x-4 items-center md:col-end-9">
-        <FaSpotify className="text-[#25D865] text-[36px] flex-shrink-0" />
+        <FaSpotify className="text-[#25D865] text-[34px] flex-shrink-0" />
         {song ? (
           <div className="flex items-center">
             <a
@@ -53,7 +53,7 @@ const Spotify = () => {
             </a>
           </div>
         ) : (
-          <p className="font-medium text-[20px] text-white">Not Playing :(</p>
+          <p className="font-medium text-[20px] text-gray-300">Not Playing :(</p>
         )}
       </div>
     </div>
